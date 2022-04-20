@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # DEBUG = True
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '')
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True) )
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['whispering-escarpment-44420.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
